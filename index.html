@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Personal website of Hamed Abnavi, Semiconductor Device Engineer specializing in power devices, device physics, and TCAD simulation.">
+          content="Personal website of Hamed Abnavi, a semiconductor device engineer and PhD researcher specializing in power devices, device physics, TCAD simulation, and Si, SiC, and GaN technologies.">
+
+    <meta name="author" content="Hamed Abnavi">
 
     <title>Hamed Abnavi | Semiconductor Device Engineer</title>
 
@@ -15,26 +19,37 @@
 
 <body>
 
+    <!-- Navigation -->
     <header class="site-header">
-        <nav class="navbar">
-            <a class="logo" href="#home">HA</a>
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a class="logo" href="#home" aria-label="Go to homepage">
+                HA
+            </a>
 
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#expertise">Expertise</a>
                 <a href="#research">Research</a>
+                <a href="#experience">Experience</a>
+                <a href="#teaching">Teaching</a>
                 <a href="#publications">Publications</a>
                 <a href="#contact">Contact</a>
             </div>
+
         </nav>
     </header>
 
     <main>
 
-        <!-- Introduction -->
+        <!-- Hero -->
         <section class="hero" id="home">
+
             <div class="hero-content">
-                <p class="eyebrow"> Semiconductor devices · Device physics · TCAD</p>
+
+                <p class="eyebrow">
+                    Semiconductor devices · Device physics · TCAD
+                </p>
 
                 <h1>Hamed Abnavi</h1>
 
@@ -48,271 +63,770 @@
                 </p>
 
                 <p class="availability">
-                    Seeking R&amp;D Engineer, Research Scientist, and
-                    Postdoctoral Researcher opportunities.
+                    Available from March 2027 for Semiconductor R&amp;D Engineer,
+                    Research Scientist, and Postdoctoral Researcher opportunities.
                 </p>
 
                 <div class="hero-buttons">
+
                     <a class="button primary" href="#research">
                         View my research
                     </a>
 
                     <a class="button secondary"
                        href="Hamed_Abnavi_CV.pdf"
-                       target="_blank">
-                        View CV
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Industry CV
                     </a>
+
+                    <a class="button secondary"
+                       href="Hamed_Abnavi_ac_cv.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Academic CV
+                    </a>
+
                 </div>
             </div>
 
-            <div class="monogram" aria-label="Hamed Abnavi initials">
+            <div class="monogram"
+                 role="img"
+                 aria-label="Hamed Abnavi initials">
                 HA
             </div>
+
         </section>
 
         <!-- About -->
         <section class="section" id="about">
+
             <div class="section-heading">
                 <p class="section-number">01</p>
                 <h2>About me</h2>
             </div>
 
             <div class="about-grid">
-                <div>
+
+                <div class="about-text">
+
                     <p>
                         I am a PhD researcher in power semiconductor devices at
-                        the University of Twente. My work focuses on developing
-                        and optimizing advanced device concepts for power
-                        switching applications.
+                        the University of Twente. My research focuses on the
+                        design and engineering of novel accumulation-mode
+                        MOSFETs and bidirectional power switches for
+                        energy-efficient power-electronics applications.
                     </p>
 
                     <p>
-                        I have experience throughout the device-development
-                        cycle, including physics-based design, device and process
-                        simulation, circuit simulation, electrical
-                        characterization, parameter extraction, and benchmarking.
+                        My experience covers the complete device-development
+                        cycle, including physics-based design, device and
+                        process simulation, circuit simulation, fabrication,
+                        electrical characterization, parameter extraction,
+                        performance optimization, and industrial benchmarking.
                     </p>
+
+                    <p>
+                        My current work includes vertical trench MOSFETs,
+                        bidirectional power switches, dielectric RESURF
+                        concepts, nanosheet power FETs, and electrostatic
+                        scaling of advanced semiconductor architectures.
+                    </p>
+
                 </div>
 
-                <div class="details-card">
-                    <p><strong>Location</strong><br>Enschede, the Netherlands</p>
-                    <p><strong>Current position</strong><br>PhD Researcher</p>
-                    <p><strong>PhD completion</strong><br>Expected February 2027</p>
-                    <p><strong>Research experience</strong><br>8+ years</p>
-                </div>
+                <aside class="details-card">
+
+                    <div class="detail">
+                        <strong>Location</strong>
+                        <span>Enschede, the Netherlands</span>
+                    </div>
+
+                    <div class="detail">
+                        <strong>Current position</strong>
+                        <span>PhD Researcher</span>
+                    </div>
+
+                    <div class="detail">
+                        <strong>Institution</strong>
+                        <span>University of Twente</span>
+                    </div>
+
+                    <div class="detail">
+                        <strong>PhD completion</strong>
+                        <span>Expected February 2027</span>
+                    </div>
+
+                    <div class="detail">
+                        <strong>Languages</strong>
+                        <span>English (fluent), Dutch (A2)</span>
+                    </div>
+
+                </aside>
+
             </div>
         </section>
 
         <!-- Expertise -->
         <section class="section alternate" id="expertise">
+
             <div class="section-heading">
                 <p class="section-number">02</p>
                 <h2>Technical expertise</h2>
             </div>
 
             <div class="card-grid">
+
                 <article class="card">
                     <h3>Device and process simulation</h3>
+
                     <p>
                         Silvaco VictoryDevice, VictoryProcess, Sentaurus TCAD,
-                        physics-based device simulation, and process development.
+                        physics-based device simulation, process development,
+                        and advanced physical models.
                     </p>
                 </article>
 
                 <article class="card">
                     <h3>Power-device technologies</h3>
+
                     <p>
-                        Si, SiC, and GaN devices, trench MOSFETs, bidirectional
-                        switches, HEMTs, diodes, and nanosheet FETs.
+                        Si, SiC, and GaN devices, trench MOSFETs, accumulation-mode
+                        FETs, bidirectional switches, HEMTs, diodes, and
+                        nanosheet FETs.
                     </p>
                 </article>
 
                 <article class="card">
-                    <h3>Modelling and circuits</h3>
+                    <h3>Circuit simulation</h3>
+
                     <p>
-                        MATLAB, PSpice, Silvaco MixedMode, Cadence Virtuoso,
-                        compact modelling, and parameter extraction.
+                        PSpice, Silvaco MixedMode, Cadence Virtuoso, Proteus,
+                        device-circuit interaction, and switching analysis.
                     </p>
                 </article>
 
                 <article class="card">
-                    <h3>Characterization</h3>
+                    <h3>Modelling and analysis</h3>
+
                     <p>
-                        Transfer and output characteristics, breakdown-voltage
-                        analysis, electrical measurements, and industrial
-                        benchmarking.
+                        MATLAB, device modelling, parameter extraction,
+                        electrostatic analysis, scaling analysis, and
+                        performance optimization.
                     </p>
                 </article>
+
+                <article class="card">
+                    <h3>Device engineering</h3>
+
+                    <p>
+                        RESURF design, electric-field engineering,
+                        breakdown-voltage optimization, and
+                        specific on-resistance versus breakdown-voltage
+                        trade-off analysis.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Electrical characterization</h3>
+
+                    <p>
+                        Transfer and output characteristics, breakdown
+                        measurements, parameter extraction, laboratory
+                        characterization, and industrial benchmarking.
+                    </p>
+                </article>
+
             </div>
         </section>
 
-        <!-- Research -->
+        <!-- Selected Research -->
         <section class="section" id="research">
+
             <div class="section-heading">
                 <p class="section-number">03</p>
                 <h2>Selected research</h2>
+
+                <p class="section-introduction">
+                    My work combines device physics, numerical modelling,
+                    fabrication-aware design, and electrical validation.
+                </p>
             </div>
 
             <div class="project-grid">
+
                 <article class="project-card">
+
                     <p class="project-type">Silicon power devices</p>
-                    <h3>Accumulation-mode trench bidirectional switch</h3>
+
+                    <h3>
+                        Accumulation-mode trench bidirectional switch
+                    </h3>
+
                     <p>
-                        Developed a novel RESURF accumulation-mode trench device
-                        architecture for efficient bidirectional power switching.
-                        The work resulted in a first-author IEEE journal publication.
+                        Developed a novel dielectric-RESURF accumulation-mode
+                        trench device architecture for efficient bidirectional
+                        power switching. The work resulted in a first-author
+                        publication in IEEE Transactions on Electron Devices.
                     </p>
-                    <span>TCAD · RESURF · Bidirectional switching</span>
+
+                    <p class="project-tags">
+                        TCAD · RESURF · Bidirectional switching
+                    </p>
+
                 </article>
 
                 <article class="project-card">
+
                     <p class="project-type">Silicon carbide</p>
+
                     <h3>SiC trench AccuFET</h3>
+
                     <p>
                         Designed and evaluated an accumulation-mode SiC trench
-                        MOSFET concept for high-voltage applications, focusing on
-                        conduction performance and device scaling.
+                        MOSFET concept for high-voltage applications, with
+                        emphasis on conduction performance, channel resistance,
+                        breakdown voltage, and device scaling.
                     </p>
-                    <span>SiC · Trench MOSFET · High voltage</span>
+
+                    <p class="project-tags">
+                        SiC · Trench MOSFET · High voltage
+                    </p>
+
                 </article>
 
                 <article class="project-card">
+
                     <p class="project-type">Advanced architectures</p>
+
                     <h3>Nanosheet power FETs</h3>
+
                     <p>
-                        Investigating stacked nanosheet device architectures,
-                        electrostatic scaling limits, and resistance optimization
-                        for future power semiconductor technologies.
+                        Investigating stacked nanosheet architectures,
+                        electrostatic scaling limits, natural-length
+                        optimization, and resistance scaling for future power
+                        semiconductor devices.
                     </p>
-                    <span>Nanosheets · Scaling · Device physics</span>
+
+                    <p class="project-tags">
+                        Nanosheets · Scaling · Device physics
+                    </p>
+
                 </article>
 
                 <article class="project-card">
+
                     <p class="project-type">Wide-bandgap devices</p>
+
                     <h3>GaN bidirectional HEMTs</h3>
+
                     <p>
                         Supervised simulation and modelling research involving
-                        GaN bidirectional HEMT devices and power-switching
-                        architectures.
+                        GaN bidirectional HEMT architectures, device
+                        characteristics, and power-switching performance.
                     </p>
-                    <span>GaN · HEMT · TCAD modelling</span>
+
+                    <p class="project-tags">
+                        GaN · HEMT · TCAD modelling
+                    </p>
+
                 </article>
+
+                <article class="project-card">
+
+                    <p class="project-type">Thin-film devices</p>
+
+                    <h3>Perovskite solar cells and photodetectors</h3>
+
+                    <p>
+                        Designed, simulated, fabricated, and optimized
+                        triple-cation perovskite devices with carbon electrodes,
+                        achieving a power-conversion efficiency of 14% and an
+                        improvement of approximately 30% over the baseline
+                        fabricated devices.
+                    </p>
+
+                    <p class="project-tags">
+                        Perovskite · Fabrication · Device optimization
+                    </p>
+
+                </article>
+
+                <article class="project-card">
+
+                    <p class="project-type">Fabrication and measurement</p>
+
+                    <h3>Device validation and benchmarking</h3>
+
+                    <p>
+                        Designed devices for fabrication at the MESA+ Institute,
+                        characterized fabricated silicon devices, extracted
+                        electrical parameters, and benchmarked their performance
+                        against industrial reference devices.
+                    </p>
+
+                    <p class="project-tags">
+                        MESA+ · Measurement · NXP benchmarking
+                    </p>
+
+                </article>
+
             </div>
         </section>
 
-        <!-- Experience -->
+        <!-- Experience and Education -->
         <section class="section alternate" id="experience">
+
             <div class="section-heading">
                 <p class="section-number">04</p>
                 <h2>Experience and education</h2>
             </div>
 
             <div class="timeline">
+
                 <article class="timeline-item">
+
                     <p class="date">2023–Present</p>
-                    <h3>PhD Researcher – Power Semiconductor Devices</h3>
+
+                    <h3>
+                        PhD Researcher – Power Semiconductor Devices
+                    </h3>
+
                     <p class="organization">
                         University of Twente, the Netherlands
                     </p>
-                    <p>
-                        Power-device design, TCAD simulation, electrical
-                        characterization, industrial benchmarking, research
-                        publication, and student supervision.
+
+                    <p class="degree-detail">
+                        PhD in Electrical Engineering – Semiconductor Devices
                     </p>
+
+                    <p>
+                        Research on accumulation-mode MOSFETs, bidirectional
+                        switches, vertical trench devices, nanosheet power FETs,
+                        fabrication-aware device design, and electrical
+                        characterization.
+                    </p>
+
+                    <ul>
+                        <li>
+                            Designed and optimized power-device architectures
+                            using Silvaco VictoryDevice and Sentaurus TCAD.
+                        </li>
+
+                        <li>
+                            Developed a novel RESURF accumulation-mode trench
+                            bidirectional switch.
+                        </li>
+
+                        <li>
+                            Designed silicon devices for fabrication at the
+                            MESA+ Institute.
+                        </li>
+
+                        <li>
+                            Characterized fabricated devices and benchmarked
+                            them against NXP reference devices.
+                        </li>
+
+                        <li>
+                            Investigated nanosheet FET architectures and
+                            electrostatic scaling limits.
+                        </li>
+                    </ul>
+
+                    <p class="thesis">
+                        <strong>Dissertation focus:</strong>
+                        Accumulation-mode bidirectional switches for
+                        energy-efficient battery chargers.
+                    </p>
+
                 </article>
 
                 <article class="timeline-item">
+
                     <p class="date">2018–2021</p>
-                    <h3>MSc – Micro- and Nanoelectronic Devices</h3>
+
+                    <h3>
+                        MSc – Micro- and Nanoelectronic Devices
+                    </h3>
+
                     <p class="organization">
-                        Amirkabir University of Technology, Iran
+                        Amirkabir University of Technology
+                        (Tehran Polytechnic), Iran
                     </p>
+
                     <p>
-                        Design, simulation, fabrication, and optimization of
-                        perovskite solar cells and photodetectors.
+                        Designed, simulated, fabricated, and optimized
+                        thin-film perovskite solar cells and photodetectors.
+                        The research included materials engineering, numerical
+                        modelling, device fabrication, and performance
+                        characterization.
                     </p>
+
+                    <p class="thesis">
+                        <strong>Thesis:</strong>
+                        Design, Simulation, and Fabrication of Perovskite Solar
+                        Cells and Photodetectors.
+                    </p>
+
                 </article>
 
                 <article class="timeline-item">
+
                     <p class="date">2013–2018</p>
-                    <h3>BSc – Electrical Engineering</h3>
+
+                    <h3>
+                        BSc – Electrical Engineering
+                    </h3>
+
                     <p class="organization">
                         Control Systems and Robotics
                     </p>
+
+                    <p>
+                        Designed and implemented a fully automated temperature
+                        and humidity controller with SMS-based remote monitoring
+                        and control. The project included circuit and PCB design
+                        in Proteus, ATmega32 programming in C, PCB fabrication,
+                        assembly, and system testing.
+                    </p>
+
+                    <p class="thesis">
+                        <strong>Thesis:</strong>
+                        PCB and electronic-circuit design for a fully automated
+                        temperature and humidity controller with SMS-based
+                        remote control.
+                    </p>
+
                 </article>
+
+            </div>
+        </section>
+
+        <!-- Teaching -->
+        <section class="section" id="teaching">
+
+            <div class="section-heading">
+                <p class="section-number">05</p>
+                <h2>Teaching and mentoring</h2>
+
+                <p class="section-introduction">
+                    Experience teaching semiconductor-device simulation,
+                    supervising research projects, and assessing technical work.
+                </p>
+            </div>
+
+            <div class="teaching-grid">
+
+                <article class="teaching-card">
+
+                    <p class="teaching-date">2025–2026</p>
+
+                    <h3>MSc thesis daily supervisor</h3>
+
+                    <p>
+                        Daily supervision of an MSc thesis project on simulation
+                        and modelling of GaN bidirectional HEMT devices at the
+                        University of Twente.
+                    </p>
+
+                </article>
+
+                <article class="teaching-card">
+
+                    <p class="teaching-date">Annual appointment</p>
+
+                    <h3>Undergraduate project supervisor</h3>
+
+                    <p>
+                        Organize and supervise a three-month MOD7A project for
+                        up to 24 students annually. The project covers TCAD
+                        simulation of photodiodes and MOSFETs, electrical
+                        characterization, technical mentoring, and final-report
+                        assessment.
+                    </p>
+
+                </article>
+
+                <article class="teaching-card">
+
+                    <p class="teaching-date">Annual appointment</p>
+
+                    <h3>Teaching Assistant</h3>
+
+                    <p>
+                        Teaching Assistant for the Power Semiconductor Devices
+                        course at the University of Twente.
+                    </p>
+
+                </article>
+
+                <article class="teaching-card">
+
+                    <p class="teaching-date">2023</p>
+
+                    <h3>BSc thesis daily supervisor</h3>
+
+                    <p>
+                        Daily supervision of a BSc thesis project on simulation
+                        of GaN HEMT devices at the University of Twente.
+                    </p>
+
+                </article>
+
             </div>
         </section>
 
         <!-- Publications -->
-        <section class="section" id="publications">
+        <section class="section alternate" id="publications">
+
             <div class="section-heading">
-                <p class="section-number">05</p>
+                <p class="section-number">06</p>
                 <h2>Selected publications</h2>
             </div>
 
-            <div class="publication-list">
-                <article>
-                    <p class="publication-year">2025 · Journal article</p>
-                    <h3>A New Silicon Accumulation-Mode Trench Bidirectional Switch</h3>
-                    <p>
-                        H. Abnavi, C. Steenge, J.W. Berenschot, N.R. Tas,
-                        and R.J.E. Hueting
-                    </p>
-                    <p><em>IEEE Transactions on Electron Devices</em></p>
-                </article>
+            <div class="publication-group">
 
-                <article>
-                    <p class="publication-year">2021 · Journal article</p>
-                    <h3>
-                        Performance Analysis of Several Electron/Hole Transport
-                        Layers in Thin Film MAPbI3-Based Perovskite Solar Cells
-                    </h3>
-                    <p>H. Abnavi, D.K. Maram, and A. Abnavi</p>
-                    <p><em>Optical Materials, Volume 118, 111258</em></p>
-                </article>
+                <h3 class="group-title">Journal articles</h3>
 
-                <article>
-                    <p class="publication-year">2025 · Conference presentation</p>
-                    <h3>Accumulation-Mode SiC Trench MOSFET</h3>
-                     <p>
-                        H. Abnavi, C. Steenge, SD Dulfer, J.W. Berenschot, N.R. Tas,
-                        and R.J.E. Hueting
-                    </p>
-                    <p><em>17th International Seminar on Power Semiconductors (ISPS)</em></p>
-                </article>
+                <div class="publication-list">
+
+                    <article>
+
+                        <p class="publication-year">
+                            2025 · Journal article
+                        </p>
+
+                        <h3>
+                            A New Silicon Accumulation-Mode Trench
+                            Bidirectional Switch
+                        </h3>
+
+                        <p>
+                            <strong>H. Abnavi</strong>, C. Steenge,
+                            J.W. Berenschot, N.R. Tas, and R.J.E. Hueting
+                        </p>
+
+                        <p>
+                            <em>
+                                IEEE Transactions on Electron Devices
+                            </em>
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <p class="publication-year">
+                            2021 · Journal article
+                        </p>
+
+                        <h3>
+                            Performance Analysis of Several Electron/Hole
+                            Transport Layers in Thin Film
+                            MAPbI<sub>3</sub>-Based Perovskite Solar Cells:
+                            A Simulation Study
+                        </h3>
+
+                        <p>
+                            <strong>H. Abnavi</strong>, D.K. Maram,
+                            and A. Abnavi
+                        </p>
+
+                        <p>
+                            <em>
+                                Optical Materials, Volume 118, 111258
+                            </em>
+                        </p>
+
+                    </article>
+
+                </div>
             </div>
 
-            <a class="text-link"
-               href="https://scholar.google.com/citations?user=ZR_CWOcAAAAJ&hl=en&oi=ao"
-               target="_blank"
-               rel="noopener noreferrer">
-                See all publications on Google Scholar →
-            </a>
+            <div class="publication-group">
+
+                <h3 class="group-title">Conference papers</h3>
+
+                <div class="publication-list compact">
+
+                    <article>
+
+                        <p class="publication-year">
+                            2025 · Oral presentation
+                        </p>
+
+                        <h3>
+                            Accumulation-Mode SiC Trench MOSFET
+                        </h3>
+
+                        <p>
+                            <strong>H. Abnavi</strong>, C. Steenge,
+                            S.D. Dulfer, J.W. Berenschot, N.R. Tas,
+                            and R.J.E. Hueting
+                        </p>
+
+                        <p>
+                            <em>
+                                17th International Seminar on Power
+                                Semiconductors (ISPS)
+                            </em>
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <p class="publication-year">
+                            2024 · Conference paper
+                        </p>
+
+                        <h3>
+                            Numerical Approach on Modeling of Perovskite Solar
+                            Cells Based on Coupled Ion Vacancy and Charge
+                            Carrier Dynamics
+                        </h3>
+
+                        <p>
+                            <strong>H. Abnavi</strong> et al.
+                        </p>
+
+                        <p>
+                            <em>
+                                32nd Iranian Conference on Electrical
+                                Engineering (ICEE)
+                            </em>
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <p class="publication-year">
+                            2024 · Conference paper
+                        </p>
+
+                        <h3>
+                            Numerical and Computational Study on Compressive
+                            Strain Effect in Perovskite Solar Cells
+                        </h3>
+
+                        <p>
+                            Co-author
+                        </p>
+
+                        <p>
+                            <em>
+                                32nd Iranian Conference on Electrical
+                                Engineering (ICEE)
+                            </em>
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <p class="publication-year">
+                            2024 · Conference paper
+                        </p>
+
+                        <h3>
+                            Impedance Evaluation of Plasmonic Nano Dipole
+                            Antennas Based on Guided TE Mode
+                        </h3>
+
+                        <p>
+                            Co-author
+                        </p>
+
+                        <p>
+                            <em>
+                                32nd Iranian Conference on Electrical
+                                Engineering (ICEE)
+                            </em>
+                        </p>
+
+                    </article>
+
+                    <article>
+
+                        <p class="publication-year">
+                            2020 · Conference paper
+                        </p>
+
+                        <h3>
+                            TDMA-Based Numerical Approach on Modeling of Charge
+                            Carrier Transport and Ion Vacancy Motion in
+                            Perovskite Solar Cells
+                        </h3>
+
+                        <p>
+                            Co-author
+                        </p>
+
+                        <p>
+                            <em>
+                                32nd Iranian Conference on Electrical
+                                Engineering (ICEE)
+                            </em>
+                        </p>
+
+                    </article>
+
+                </div>
+            </div>
+
+            <div class="publication-actions">
+
+                <a class="button secondary"
+                   href="https://scholar.google.com/citations?user=ZR_CWOcAAAAJ&hl=en&oi=ao"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Google Scholar
+                </a>
+
+                <a class="button secondary"
+                   href="Hamed_Abnavi_ac_cv.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Full academic CV
+                </a>
+
+            </div>
+
         </section>
 
         <!-- Award -->
         <section class="award-section">
-            <p class="section-number">Award</p>
+
+            <p class="section-number">Award and honor</p>
+
             <h2>MESA+ Poster Award 2025</h2>
+
             <p>
-                Third prize for the poster “Self-aligned 3D transistor
-                technology in the MESA+ NanoLab.”
+                Third prize for the poster “Self-Aligned 3D Transistor
+                Technology in the MESA+ NanoLab,” presented at MESA+ Day 2025.
             </p>
+
         </section>
 
         <!-- Contact -->
         <section class="contact-section" id="contact">
-            <p class="section-number">06</p>
+
+            <p class="section-number">07</p>
+
             <h2>Let’s connect</h2>
 
             <p>
                 I am interested in research and development opportunities in
-                semiconductor devices, power electronics, and advanced device
-                technologies.
+                semiconductor devices, power electronics, nanoelectronics,
+                and advanced device technologies.
             </p>
 
             <div class="contact-links">
-                <a class="button primary" href="mailto:H.Abnavi@utwente.nl">
+
+                <a class="button primary"
+                   href="mailto:H.Abnavi@utwente.nl">
                     Email me
                 </a>
 
@@ -329,14 +843,37 @@
                    rel="noopener noreferrer">
                     Google Scholar
                 </a>
+
             </div>
+
+            <div class="cv-links">
+
+                <a href="Hamed_Abnavi_CV.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Download Industry CV
+                </a>
+
+                <a href="Hamed_Abnavi_ac_cv.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Download Academic CV
+                </a>
+
+            </div>
+
         </section>
 
     </main>
 
     <footer>
+
         <p>© 2026 Hamed Abnavi</p>
-        <p>Semiconductor Device Engineer</p>
+
+        <p>
+            Semiconductor Device Engineer · Power Devices · TCAD
+        </p>
+
     </footer>
 
 </body>
